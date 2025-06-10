@@ -7,6 +7,6 @@ No ritmo do tempo, defina o valor de cada escolha! Aplicativo mobile que integra
 
 ## Plano Estratégico
 
-[cite_start]A ideia do projeto nasceu com o objetivo de ser uma plataforma que garante que os usuários consigam aproveitar a vida cotidiana com consciência financeira, transformando hábitos diários em decisões inteligentes para um futuro financeiro próspero e autônomo.
-[cite_start]Nossa estratégia é baseada na crença de que a autonomia financeira não deve ser complexa ou entediante, mas sim agregada de forma intuitiva e divertida ao dia a dia.
-[cite_start]Ao juntarmos a gestão de tarefas com o rastreamento financeiro detalhado e inteligência artificial personalizada, o Rootin torna-se um parceiro importante na jornada financeira de seus usuários.
+* A ideia do projeto nasceu com o objetivo de ser uma plataforma que garante que os usuários consigam aproveitar a vida cotidiana com consciência financeira, transformando hábitos diários em decisões inteligentes para um futuro financeiro próspero e autônomo.
+* Nossa estratégia é baseada na crença de que a autonomia financeira não deve ser complexa ou entediante, mas sim agregada de forma intuitiva e divertida ao dia a dia.
+* Ao juntarmos a gestão de tarefas com o rastreamento financeiro detalhado e inteligência artificial personalizada, o Rootin torna-se um parceiro importante na jornada financeira de seus usuários.
