@@ -39,3 +39,19 @@ O escopo abrange as seguintes áreas principais:
 * **Sugestões Personalizadas:** Geração de recomendações acionáveis para otimização de gastos e rotinas (ex: "Que tal cozinhar mais em casa para economizar na categoria X?").
 * **Acompanhamento de Metas com IA:** Feedback inteligente sobre o progresso das metas financeiras do usuário.
 * **Educação Financeira Contínua:** Pequenas "pílulas" de conhecimento financeiro, entregues de forma contextualizada e descontraída pela IA.
+
+
+## Empacotamento do Software
+
+Os componentes da unidade de produto serão empacotados na mídia adequada para cada fase da distribuição.
+
+* **Mídia de Empacotamento:** Os pacotes digitais do aplicativo móvel incluirão:
+    * Arquivo .aab (Android App Bundle) ou .apk (Android Application Pack).
+    * Arquivo .ipa (iOS App Store Package).
+
+## Distribuição do Software
+
+A distribuição será realizada pela internet, com foco em escalabilidade e segurança.
+
+* **Canal de Distribuição:** O aplicativo será publicado e distribuído através da App Store (iOS) e Google Play Store (Android).
+* **Processo de Instalação:** O processo de instalação será controlado pelo usuário, mas projetado para ser simples e acessível. Os usuários realizarão o download e a instalação diretamente das lojas de aplicativos.
