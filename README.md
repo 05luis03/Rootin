@@ -1,6 +1,6 @@
 # Rootin
 
-![Capa](/Public/imgs/LogoComNomeLateral_FundoEscuro.jpg)
+![Capa](/Public/imgs/LogoComNomeLateral_FundoEscuro.png)
 
 
 No ritmo do tempo, defina o valor de cada escolha! Aplicativo mobile que integra gerenciamento de tarefas com rastreamento de gastos, oferecendo insights visuais e personalizados por IA para te ajudar a alcançar autonomia financeira.
@@ -55,3 +55,12 @@ A distribuição será realizada pela internet, com foco em escalabilidade e seg
 
 * **Canal de Distribuição:** O aplicativo será publicado e distribuído através da App Store (iOS) e Google Play Store (Android).
 * **Processo de Instalação:** O processo de instalação será controlado pelo usuário, mas projetado para ser simples e acessível. Os usuários realizarão o download e a instalação diretamente das lojas de aplicativos.
+
+## Auxílio e Assistência ao Usuário
+
+O suporte será um pilar para alcançar as metas estratégicas do projeto, como ser referência em educação financeira personalizada.
+
+* **Ajuda Proativa (via IA):** O principal meio de auxílio será a própria IA, fornecendo sugestões personalizadas.
+* **Suporte Reativo:**
+    * O lançamento contará com um suporte ao cliente inicial configurado.
+    * A equipe realizará o monitoramento de performance e segurança para identificar e resolver problemas proativamente.
