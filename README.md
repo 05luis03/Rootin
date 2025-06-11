@@ -64,3 +64,24 @@ O suporte será um pilar para alcançar as metas estratégicas do projeto, como 
 * **Suporte Reativo:**
     * O lançamento contará com um suporte ao cliente inicial configurado.
     * A equipe realizará o monitoramento de performance e segurança para identificar e resolver problemas proativamente.
+
+# PM Identificar Tarefas
+
+# PM Estimar Execução da Tarefa
+
+# PM Identificar e Documentar Recursos
+
+# PM Estabelecer a Equipe de Trabalho
+
+# PM Estimar Início e Término das Tarefas
+
+# PM Estimativa de Esforço e Custo
+
+# PM Identificar e Documentar os Riscos
+
+# PM Estratégia de Controle de Versão
+
+# PM Integração do Plano do Projeto
+
+# PM Descrever os Elementos no Plano de Projeto
+
