@@ -67,7 +67,30 @@ O suporte será um pilar para alcançar as metas estratégicas do projeto, como 
 
 # PM Identificar Tarefas
 
-# PM Estimar Execução da Tarefa
+## Como o Trabalho Será Medido
+Para conseguirmos mensurar o tamanho do ROOTIN, iremos olhar o projeto de vários pontos
+* Como a Medida Será Realizada:
+    * Pontos de função: é um jeito de mensurar a quantidade de funcionalidades que o app vai entregar para o usuário, sem ver a tecnologia por trás. Exemplo: quantos dados o app vai receber (inputs), quantos resultados ele vai mostrar (outputs), etc.
+    * Pontos de Features: aqui nós atribuímos um peso para cada funcionalidade que o ROOTIN vai ter a parte de "Gerenciar a Rotina" , o "Registro de Gastos Integrado" , o "Dashboard dos Relatórios" , a "Análise da IA dos Padrões de Gastos" , as "Metas Financeiras", etc.
+* Dividido o Projeto em Pequenas Partes:
+    * O Aplicativo no Celular (Front-end):
+        * A parte de criar tarefas, colocar lembretes, categorizar.
+        * Registrar os gastos e ligar eles às tarefas.
+        * As telas bonitas dos relatórios e do seu saldo atual.
+        * A função de controlar suas reservas de dinheiro.
+        * As telas de metas financeiras.
+        * Todo o visual e a facilidade de uso (UI/UX).
+    * O Sistema por Trás (Back-end e Banco de Dados):
+        * Onde você faz seu login seguro e seus dados são protegidos (LGPD). 
+        * Onde todas as suas informações (tarefas, gastos, metas) são guardadas de forma segura e organizada. 
+        * A "fábrica" que processa todos os dados para IA e os relatórios.
+    * A Inteligência Artificial (RAI):
+        * Os algoritmos que "aprendem" seus padrões de gasto. 
+        * Os alertas e notificações que a IA vai te mandar. 
+        * As sugestões personalizadas para você economizar. 
+        * O feedback esperto da IA sobre suas metas.
+
+
 
 # PM Identificar e Documentar Recursos
 
