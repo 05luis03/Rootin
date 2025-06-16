@@ -107,5 +107,4 @@ Para conseguirmos mensurar o tamanho do ROOTIN, iremos olhar o projeto de vário
 
 # PM Integração do Plano do Projeto
 
-# PM Descrever os Elementos no Plano de Projeto
 
