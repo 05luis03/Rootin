@@ -97,6 +97,7 @@ Para conseguirmos mensurar o tamanho do ROOTIN, iremos olhar o projeto de vário
 # PM Estabelecer a Equipe de Trabalho
 
 # PM Estimar Início e Término das Tarefas
+![NetworkDiagram](/Public/imgs/NetworkDiagram.png)
 
 # PM Estimativa de Esforço e Custo
 
