@@ -147,11 +147,10 @@ Para conseguirmos mensurar o tamanho do ROOTIN, iremos olhar o projeto de vário
 
 
 
-# PM Identificar e Documentar Recursos
 ## Visão Integrada dos Recursos do Projeto
 
 O documento centraliza a visão de todos os recursos necessários ao projeto Rootin, estabelecendo que seu sucesso depende da alocação e integração de três categorias principais. A primeira é o **recurso humano**, com uma equipe multidisciplinar de papéis definidos, desde a gestão até o desenvolvimento e suporte. A segunda abrange os **recursos materiais e tecnológicos**, como hardware, a infraestrutura de nuvem escalável e as ferramentas de desenvolvimento e licenciamento.Por fim, são definidos os **recursos normativos**, que incluem a adesão a padrões de segurança como LGPD e ISO 27001, e a processos de trabalho como o Gitflow.
-# PM Estabelecer a Equipe de Trabalho
+
 ## Equipe do Projeto Rootin e Suas Responsabilidades
 
 * **Gerente de Projeto:** Guia o projeto, define o escopo e garante a eficiência na execução para atender aos objetivos de negócio.
@@ -167,7 +166,7 @@ O cronograma do projeto Rootin descreve como o desenvolvimento será executado, 
 
 ![NetworkDiagram](/Public/imgs/NetworkDiagram.png)
 
-# PM Estimativa de Esforço e Custo
+# Estimativa de Esforço e Custo
 ![EAP](/Public/imgs/EAP.PNG)
 
 A Estrutura Analítica do Projeto (EAP), representada visualmente no seu diagrama, é a fundação para a estimativa de esforço e custo. Ela decompõe o escopo total do projeto em fases e pacotes de trabalho menores, como o desenvolvimento do Back-end , Front-end  e do módulo de Inteligência Artificial. Para cada um desses pacotes, são alocados recursos e competências críticas específicas. A estimativa detalhada do custo é então calculada com base no esforço previsto para estes recursos, somando-se também os custos de produtos externos  e a mitigação de riscos, formando assim uma base sólida para o orçamento final do projeto.
