@@ -95,17 +95,17 @@ Para conseguirmos mensurar o tamanho do ROOTIN, iremos olhar o projeto de vário
 # PM Identificar e Documentar Recursos
 ## Visão Integrada dos Recursos do Projeto
 
-O documento centraliza a visão de todos os recursos necessários ao projeto Rootin, estabelecendo que seu sucesso depende da alocação e integração de três categorias principais. [cite_start]A primeira é o **recurso humano** [cite: 314][cite_start], com uma equipe multidisciplinar de papéis definidos, desde a gestão até o desenvolvimento e suporte[cite: 6, 7, 9, 10, 11, 12, 14, 315, 316, 317]. [cite_start]A segunda abrange os **recursos materiais e tecnológicos** [cite: 318, 319][cite_start], como hardware [cite: 318][cite_start], a infraestrutura de nuvem escalável [cite: 302, 319] [cite_start]e as ferramentas de desenvolvimento e licenciamento[cite: 38, 61, 321]. [cite_start]Por fim, são definidos os **recursos normativos**, que incluem a adesão a padrões de segurança como LGPD e ISO 27001 [cite: 40, 303, 338, 339][cite_start], e a processos de trabalho como o Gitflow.
+O documento centraliza a visão de todos os recursos necessários ao projeto Rootin, estabelecendo que seu sucesso depende da alocação e integração de três categorias principais. A primeira é o **recurso humano**, com uma equipe multidisciplinar de papéis definidos, desde a gestão até o desenvolvimento e suporte. A segunda abrange os **recursos materiais e tecnológicos**, como hardware, a infraestrutura de nuvem escalável e as ferramentas de desenvolvimento e licenciamento.Por fim, são definidos os **recursos normativos**, que incluem a adesão a padrões de segurança como LGPD e ISO 27001, e a processos de trabalho como o Gitflow.
 # PM Estabelecer a Equipe de Trabalho
 ## Equipe do Projeto Rootin e Suas Responsabilidades
 
-* [cite_start]**Gerente de Projeto:** Guia o projeto, define o escopo e garante a eficiência na execução para atender aos objetivos de negócio.
-* [cite_start]**Designer UI/UX:** Cria a arquitetura da informação e o design visual e interativo do aplicativo.
-* [cite_start]**Desenvolvedores de Front-end:** Implementam a interface e as funcionalidades do aplicativo móvel (iOS & Android).
-* [cite_start]**Desenvolvedores de Back-end:** Constroem e mantêm o sistema central de autenticação, segurança, banco de dados e processamento de dados.
-* [cite_start]**Desenvolvedores de IA (RAI):** Desenvolvem os algoritmos de análise de gastos, alertas e sugestões personalizadas.
-* [cite_start]**Analistas de Qualidade / Testadores:** Validam o produto, realizam testes com usuários na Fase Beta e garantem um lançamento "sem bugs críticos".
-* [cite_start]**Equipe de Suporte ao Cliente:** Operam o suporte ao usuário final e monitoram a performance e segurança da aplicação de forma proativa.
+* **Gerente de Projeto:** Guia o projeto, define o escopo e garante a eficiência na execução para atender aos objetivos de negócio.
+* **Designer UI/UX:** Cria a arquitetura da informação e o design visual e interativo do aplicativo.
+* **Desenvolvedores de Front-end:** Implementam a interface e as funcionalidades do aplicativo móvel (iOS & Android).
+* **Desenvolvedores de Back-end:** Constroem e mantêm o sistema central de autenticação, segurança, banco de dados e processamento de dados.
+* **Desenvolvedores de IA (RAI):** Desenvolvem os algoritmos de análise de gastos, alertas e sugestões personalizadas.
+* **Analistas de Qualidade / Testadores:** Validam o produto, realizam testes com usuários na Fase Beta e garantem um lançamento "sem bugs críticos".
+* **Equipe de Suporte ao Cliente:** Operam o suporte ao usuário final e monitoram a performance e segurança da aplicação de forma proativa.
 
 # PM Estimar Início e Término das Tarefas
 O cronograma do projeto Rootin descreve como o desenvolvimento será executado, controlado e encerrado, com uma duração total estimada de 21 semanas, entre agosto e dezembro. O projeto está dividido em fases principais: Planejamento (3 semanas), Desenvolvimento de Back-end (8 semanas), Front-end (7 semanas) e IA (6 semanas), seguidas por Integração (2 semanas), Testes Beta (4 semanas) e Lançamento (1 semana). O controle do projeto será feito com o sistema de versão Git e ferramentas de gerenciamento como Jira, Trello ou Asana. Os principais riscos considerados são atrasos no cronograma, segurança de dados e baixa aceitação do usuário.
