@@ -279,10 +279,10 @@ Exemplo: `v2.1.3`
 
 ## Integração do Plano do Projeto
 
-# Visão Geral
+### Visão Geral
 Estratégia para alinhamento dos componentes do projeto (tarefas, riscos, versão e qualidade) garantindo coordenação entre todas as áreas do desenvolvimento do aplicativo Rootin.
 
-# Componentes Integrados
+### Componentes Integrados
 
 | Componente               | Objetivo                              | Responsável          |
 |--------------------------|---------------------------------------|----------------------|
@@ -292,7 +292,6 @@ Estratégia para alinhamento dos componentes do projeto (tarefas, riscos, versã
 | Plano de Comunicação     | Alinhamento entre stakeholders        | Product Owner        |
 | Gestão de Recursos       | Alocação de equipe e infraestrutura   | Project Manager      |
 
-# Estratégias de Integração
 ### Tarefas ↔ Riscos
 
     A[Tarefa Complexa] --> B[Identifica Risco]
