@@ -161,7 +161,7 @@ O documento centraliza a visão de todos os recursos necessários ao projeto Roo
 * **Analistas de Qualidade / Testadores:** Validam o produto, realizam testes com usuários na Fase Beta e garantem um lançamento "sem bugs críticos".
 * **Equipe de Suporte ao Cliente:** Operam o suporte ao usuário final e monitoram a performance e segurança da aplicação de forma proativa.
 
-# PM Estimar Início e Término das Tarefas
+# Estimar Início e Término das Tarefas
 O cronograma do projeto Rootin descreve como o desenvolvimento será executado, controlado e encerrado, com uma duração total estimada de 21 semanas, entre agosto e dezembro. O projeto está dividido em fases principais: Planejamento (3 semanas), Desenvolvimento de Back-end (8 semanas), Front-end (7 semanas) e IA (6 semanas), seguidas por Integração (2 semanas), Testes Beta (4 semanas) e Lançamento (1 semana). O controle do projeto será feito com o sistema de versão Git e ferramentas de gerenciamento como Jira, Trello ou Asana. Os principais riscos considerados são atrasos no cronograma, segurança de dados e baixa aceitação do usuário.
 
 ![NetworkDiagram](/Public/imgs/NetworkDiagram.png)
