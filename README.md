@@ -113,7 +113,7 @@ O cronograma do projeto Rootin descreve como o desenvolvimento será executado, 
 ![NetworkDiagram](/Public/imgs/NetworkDiagram.png)
 
 # PM Estimativa de Esforço e Custo
-![EAP](/Public/imgs/eap.PNG)
+![EAP](/Public/imgs/EAP.PNG)
 
 A Estrutura Analítica do Projeto (EAP), representada visualmente no seu diagrama, é a fundação para a estimativa de esforço e custo. Ela decompõe o escopo total do projeto em fases e pacotes de trabalho menores, como o desenvolvimento do Back-end , Front-end  e do módulo de Inteligência Artificial. Para cada um desses pacotes, são alocados recursos e competências críticas específicas. A estimativa detalhada do custo é então calculada com base no esforço previsto para estes recursos, somando-se também os custos de produtos externos  e a mitigação de riscos, formando assim uma base sólida para o orçamento final do projeto.
 
