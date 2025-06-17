@@ -65,7 +65,62 @@ O suporte será um pilar para alcançar as metas estratégicas do projeto, como 
     * O lançamento contará com um suporte ao cliente inicial configurado.
     * A equipe realizará o monitoramento de performance e segurança para identificar e resolver problemas proativamente.
 
-# PM Identificar Tarefas
+## Identificação de Tarefas
+
+### Front-end Mobile
+#### Gestão de Rotinas
+- [ ] Implementar criação de tarefas recorrentes
+- [ ] Desenvolver sistema de lembretes inteligentes
+- [ ] Criar interface de categorização
+
+#### Dashboard Financeiro
+- [ ] Construir visualização de saldo atual
+- [ ] Implementar gráficos de gastos (diários/semanais/mensais)
+- [ ] Desenvolver módulo de metas financeiras
+
+### Back-end
+#### Autenticação e Segurança
+- [ ] Implementar OAuth 2.0
+- [ ] Configurar conformidade com LGPD
+- [ ] Desenvolver criptografia de dados
+
+#### Banco de Dados
+- [ ] Modelar estrutura de dados
+- [ ] Implementar queries otimizadas
+- [ ] Configurar backups automáticos
+
+### Módulo RAI (IA)
+- [ ] Desenvolver algoritmos de análise de padrões
+- [ ] Implementar sistema de alertas inteligentes
+- [ ] Criar motor de recomendações personalizadas
+
+## Empacotamento e Distribuição
+| Plataforma | Formato | Tarefas |
+|------------|---------|---------|
+| Android    | .aab    | [ ] Configurar assinatura<br>[ ] Otimizar tamanho<br>[ ] Testar compatibilidade |
+| iOS        | .ipa    | [ ] Configurar App Store Connect<br>[ ] Implementar TestFlight<br>[ ] Validar guidelines |
+
+## Tarefas de Lançamento
+1. **Pré-lançamento**
+   - [ ] Testes beta com usuários reais
+   - [ ] Campanha de pré-cadastro
+   - [ ] Preparação de material de suporte
+
+2. **Pós-lançamento**
+   - [ ] Monitoramento de crash reports
+   - [ ] Análise de métricas de uso
+   - [ ] Programa de feedback contínuo
+
+## Priorização
+
+    title Cronograma de Prioridades
+    dateFormat  YYYY-MM-DD
+    section Core
+    Autenticação       :done,    auth1, 2023-10-01, 15d
+    Dashboard          :active,  dash1, 2023-10-16, 20d
+    section IA
+    Análise de Padrões :         ia1, 2023-11-05, 25d
+
 
 ## Como o Trabalho Será Medido
 Para conseguirmos mensurar o tamanho do ROOTIN, iremos olhar o projeto de vários pontos
@@ -117,10 +172,139 @@ O cronograma do projeto Rootin descreve como o desenvolvimento será executado, 
 
 A Estrutura Analítica do Projeto (EAP), representada visualmente no seu diagrama, é a fundação para a estimativa de esforço e custo. Ela decompõe o escopo total do projeto em fases e pacotes de trabalho menores, como o desenvolvimento do Back-end , Front-end  e do módulo de Inteligência Artificial. Para cada um desses pacotes, são alocados recursos e competências críticas específicas. A estimativa detalhada do custo é então calculada com base no esforço previsto para estes recursos, somando-se também os custos de produtos externos  e a mitigação de riscos, formando assim uma base sólida para o orçamento final do projeto.
 
-# PM Identificar e Documentar os Riscos
+## Identificar e Documentar os Riscos
+### Objetivo
+Mapear riscos potenciais e estabelecer planos de mitigação para garantir o sucesso do projeto.
 
-# PM Estratégia de Controle de Versão
+### Riscos Técnicos
 
-# PM Integração do Plano do Projeto
+| Risco | Probabilidade | Impacto | Plano de Mitigação | Plano de Contingência |
+|-------|--------------|---------|--------------------|-----------------------|
+| **Integração de módulos** | Alta | Crítico | • Testes de integração contínuos<br>• APIs bem documentadas<br>• Ambiente sandbox para testes | • Squad dedicado a integrações<br>• Buffer de tempo no cronograma |
+| **Segurança de dados** | Alta | Crítico | • Criptografia AES-256<br>• Pentests mensais<br>• Conformidade LGPD | • Plano de resposta a incidentes<br>• Seguro contra vazamentos |
+| **Escalabilidade do back-end** | Média | Alto | • Load testing semanal<br>• Arquitetura microserviços<br>• Auto-scaling configurado | • Parceria com provedor cloud<br>• Plano de otimização emergencial |
+
+### Riscos de Projeto
+
+| Risco | Probabilidade | Impacto | Mitigação | Contingência |
+|-------|--------------|---------|-----------|--------------|
+| **Atrasos no cronograma** | Alta | Alto | • Sprints curtos (2 semanas)<br>• Daily standups<br>• Critical path analysis | • Priorização MVP<br>• Hora-extra controlada |
+| **Estouro de orçamento** | Média | Alto | • Controle financeiro semanal<br>• Reserve de contingência (15%)<br>• Revisão trimestral | • Redução de escopo não-crítico<br>• Busca de investimento adicional |
+
+### Riscos de Mercado
+
+| Risco | Probabilidade | Impacto | Estratégia | Plano B |
+|-------|--------------|---------|------------|---------|
+| **Baixa aceitação do usuário** | Média | Alto | • Beta testing com 500 usuários<br>• Pesquisas NPS semanais<br>• Programa de feedback | • Pivotar funcionalidades<br>• Campanha de marketing agressiva |
+| **Rejeição nas app stores** | Baixa | Médio | • Pré-validação com guidelines<br>• Consultoria especializada<br>• Testes em ambiente staging | • Correções rápidas<br>• Appeal técnico<br>• Planos de publicação alternativos |
+
+## Estratégia de Controle de Versão
+### Objetivo
+Estabelecer uma estratégia robusta de controle de versão para o desenvolvimento do aplicativo Rootin, garantindo rastreabilidade e colaboração eficiente.
+
+### Ferramentas e Infraestrutura
+- **Sistema de Controle**: Git (distribuído)
+- **Plataforma de Hospedagem**:
+  - GitHub/GitLab
+  - Inclui:
+    - Rastreamento de issues
+    - Pipelines de CI/CD
+    - Ferramentas de revisão de código
+
+### Estratégia de Branching (Gitflow)
+| Tipo de Branch  | Convenção de Nomeação   | Finalidade                      | Destino de Merge |
+|-----------------|-------------------------|--------------------------------|------------------|
+| **main**        | `main`                  | Código estável em produção     | -                |
+| **develop**     | `develop`               | Branch de integração           | main             |
+| **feature**     | `feature/[nome]`        | Desenvolvimento de funcionalidades | develop       |
+| **release**     | `release/[versão]`      | Preparação de lançamentos      | main + develop   |
+| **hotfix**      | `hotfix/[descrição]`    | Correções críticas em produção | main + develop   |
 
 
+### Tipos de Commit
+| Tipo       | Descrição                          | Exemplo                          |
+|------------|------------------------------------|----------------------------------|
+| `feat`     | Nova funcionalidade                | `feat(auth): adiciona login OAuth2` |
+| `fix`      | Correção de bug                    | `fix(ui): alinhamento de botões` |
+| `docs`     | Mudanças na documentação           | `docs: atualiza referência da API` |
+| `refactor` | Reestruturação de código           | `refactor: serviço de pagamentos` |
+| `test`     | Mudanças relacionadas a testes     | `test: adiciona testes unitários` |
+
+### Processo de Code Review
+1. **Pré-requisitos**:
+   - Todos os testes passando
+   - Documentação atualizada
+   - Conformidade com padrões de código
+
+2. **Checklist de Revisão**:
+   - [ ] Funcionalidade do código
+   - [ ] Impacto na performance
+   - [ ] Considerações de segurança
+   - [ ] Cobertura de testes
+
+3. **Aprovação**:
+   - Mínimo de 2 aprovações necessárias
+   - Pipeline de CI deve passar
+   - Aprovação do Product Owner para funcionalidades
+
+### Versionamento (SemVer)
+Formato: `MAIOR.MENOR.PATCH`
+
+- **MAIOR**: Mudanças incompatíveis
+- **MENOR**: Funcionalidades compatíveis
+- **PATCH**: Correções de bugs compatíveis
+
+Exemplo: `v2.1.3`
+- 2 = Versão principal (mudanças incompatíveis)
+- 1 = Versão menor (novas funcionalidades)
+- 3 = Patch (correções de bugs)
+
+### Gerenciamento de Releases
+1. Criar branch de release a partir de develop
+2. Atualizar versão em:
+   - `package.json`
+   - Documentação
+   - CHANGELOG.md
+3. Realizar testes finais
+4. Merge para main e tag da versão
+5. Deploy em produção
+
+### Estrutura do Repositório
+rootin/
+├── .github/
+│ ├── workflows/ # Pipelines de CI/CD
+│ └── PULL_REQUEST_TEMPLATE.md
+├── docs/
+│ └── VERSIONING.md # Política detalhada
+└── CHANGELOG.md # Histórico de releases
+
+
+### Boas Práticas
+- Commits atômicos (uma mudança lógica por commit)
+- Push frequente para o repositório remoto
+- Limpeza de branches após merge
+- Commits assinados para mudanças críticas
+- Geração de changelog convencional
+
+
+## Integração do Plano do Projeto
+
+# Visão Geral
+Estratégia para alinhamento dos componentes do projeto (tarefas, riscos, versão e qualidade) garantindo coordenação entre todas as áreas do desenvolvimento do aplicativo Rootin.
+
+# Componentes Integrados
+
+| Componente               | Objetivo                              | Responsável          |
+|--------------------------|---------------------------------------|----------------------|
+| Plano de Tarefas         | Gerenciar atividades e dependências   | Scrum Master         |
+| Gestão de Riscos         | Identificar e mitigar ameaças         | Risk Manager         |
+| Controle de Versão       | Versionamento do código               | Tech Lead            |
+| Plano de Comunicação     | Alinhamento entre stakeholders        | Product Owner        |
+| Gestão de Recursos       | Alocação de equipe e infraestrutura   | Project Manager      |
+
+# Estratégias de Integração
+### Tarefas ↔ Riscos
+
+    A[Tarefa Complexa] --> B[Identifica Risco]
+    B --> C[Plano de Mitigação]
+    C --> D[Nova Tarefa de Segurança]
