@@ -269,16 +269,6 @@ Exemplo: `v2.1.3`
 4. Merge para main e tag da versão
 5. Deploy em produção
 
-### Estrutura do Repositório
-rootin/
-├── .github/
-│ ├── workflows/ # Pipelines de CI/CD
-│ └── PULL_REQUEST_TEMPLATE.md
-├── docs/
-│ └── VERSIONING.md # Política detalhada
-└── CHANGELOG.md # Histórico de releases
-
-
 ### Boas Práticas
 - Commits atômicos (uma mudança lógica por commit)
 - Push frequente para o repositório remoto
